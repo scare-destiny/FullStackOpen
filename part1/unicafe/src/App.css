@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header {
+	color: fuchsia;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  justify-content: center;
+
+}
