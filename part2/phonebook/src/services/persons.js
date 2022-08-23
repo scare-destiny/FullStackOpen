@@ -2,8 +2,8 @@ import axios from "axios";
 const baseUrl = "http://localhost:3002/persons";
 
 const getAll = async () => {
-  const request = axios.get(baseUrl)
-  return request.then(response => response.data)
+  const request = axios.get(baseUrl);
+  return request.then((response) => response.data);
 };
 
 const create = async (newObject) => {

@@ -1,0 +1,43 @@
+
+GET http://localhost:3001/api/notes
+
+### 
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Postman is good?",
+    "important": true
+}
+
+### 
+GET https://hook.integromat.com/l8knnofjfcrod1cqjw1k4kq4mykdsm7d
+Content-Type: application/json
+
+    {
+        "lead_id": "Cj0KCQjw0oyYBhDGARIsAMZEuMsKNQPpXjk-xIWn7i0ST06mlLDvpSggM0ZAw1Xx2xJ3nI3kYAo0N5YaAh63EALw_wcB",
+        "user_column_data": [
+            {
+                "column_name": "First Name",
+                "string_value": "Mio",
+                "column_id": "FIRST_NAME"
+            },
+            {
+                "column_name": "Last Name",
+                "string_value": "Maya",
+                "column_id": "LAST_NAME"
+            },
+            {
+                "column_name": "User Email",
+                "string_value": "spoofygs@gmail.com",
+                "column_id": "EMAIL"
+            }
+        ],
+        "api_version": "1.0",
+        "form_id": 49432130742,
+        "campaign_id": 18080067280,
+        "google_key": "769WpDVviAf3r6tzoeHWdjW3IHrGgJiH",
+        "gcl_id": "Cj0KCQjw0oyYBhDGARIsAMZEuMsKNQPpXjk-xIWn7i0ST06mlLDvpSggM0ZAw1Xx2xJ3nI3kYAo0N5YaAh63EALw_wcB",
+        "adgroup_id": 143301271114,
+        "creative_id": 617435195729
+    }
